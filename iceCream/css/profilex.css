@@ -1,0 +1,220 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: sans-serif !important;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .container {
+    width: 95%;
+    margin: 100px auto;
+    background-color: #f5dce4;
+    padding: 50px 0;
+  }
+  
+  .wrapper {
+    width: 85%;
+    margin: 50px auto;
+  }
+  
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar__logo {
+    width: 80px;
+    height: 80px;
+  }
+  .navbar__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 40px;
+  }
+  .navbar__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 900;
+    color: #150101;
+    opacity: 0.6;
+  }
+  .navbar__link:hover {
+    color: #d23166;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 900;
+  }
+  .navbar__btn {
+    width: 165px;
+    height: 49px;
+    background: #d23166;
+    border-radius: 5px;
+    border: none;
+    /* Buy Now */
+    font-family: "Hind Madurai";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fafafa;
+  }
+  .navbar__btn:hover {
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    background: #f0588b;
+  }
+  .navbar__btn:active {
+    background: #e31358;
+  }
+  
+  .intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .intro__textsmall {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0f0101;
+  }
+  .intro__title {
+    width: 665px;
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    /* or 69px */
+    color: #0f0101;
+    opacity: 0.9;
+  }
+  .intro__span {
+    color: #d23166;
+  }
+  .intro__text {
+    /* Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words. */
+    width: 523px;
+    font-family: "Hind Madurai";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    color: #0f0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+  }
+  
+  .cards {
+    width: 95%;
+    padding: 50px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .cards__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 250px;
+    height: 200px;
+    background-color: #fdf9f9;
+    text-align: center;
+    /* Rectangle 61 */
+    background: #ffffff;
+    -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+            box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+  }
+  .cards__card:hover {
+    background: #fdfcfc;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  .cards__title {
+    font-family: "Hind Madurai";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #000000;
+  }
+  .cards__text {
+    font-family: "Hind Madurai";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.6;
+  }.example {
+      display: -ms-grid;
+      display: grid;
+      -webkit-transition: all .5s;
+      -o-transition: all .5s;
+      transition: all .5s;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+      background: -o-linear-gradient(top, white, black);
+      background: linear-gradient(to bottom, white, black);
+  }
+  

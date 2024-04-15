@@ -1,0 +1,88 @@
+.box{
+    display: flex;
+    gap: 50px;
+    bottom: 50px;
+}
+.sirce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 20px solid red;
+
+}
+.sirce_box{
+    position: relative;
+    width: 99%;
+    height: 99%;
+    border-radius: 50%;
+    border: 10px solid white;
+    background-color: grey;
+}
+.sirce_child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    bottom: -60px;
+    left: 185px;
+    border: 10px solid white;
+}
+
+.sirc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 20px solid rgb(52, 24, 194);
+}
+.sirce_box{
+    position: relative;
+    width: 99%;
+    height: 99%;
+    border-radius: 50%;
+    border: 10px solid white;
+    background-color: grey;
+}
+.sirc_child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    bottom: -60px;
+    left: 185px;
+    border: 10px solid white;
+}
+.water{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 20px solid rgb(15, 183, 76);
+}
+.wate{
+    position: relative;
+    width: 99%;
+    height: 99%;
+    border-radius: 50%;
+    border: 10px solid white;
+    background-color: grey;
+}
+.wat{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(205, 235, 14);
+    bottom: -60px;
+    left: 185px;
+    border: 10px solid white;
+}

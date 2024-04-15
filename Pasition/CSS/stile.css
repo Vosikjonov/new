@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1900px;
+    border: 1px solid red;
+    margin: 10px auto;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg,
+    rgba(0,212,255,1) 0%,
+    rgba(2,0,36,1) 0%,
+    rgba(9,9,121,1) 20%, rgba(25,52,160,1) 37%);
+}
+.wrapper{
+    width: 1300px;
+    margin: 50px auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_img{
+}
+.navbar_list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar_link{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #a1b5bb;
+}
+.navbar_btn{
+    width: 140px;
+    height: 58px;
+    background: #145e76;
+    border-radius: 25px;
+    border: none;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+}
+.navbar_btn:hover{
+    transition: all 0.2s ease-in-out;
+    background: #032e3b;
+}
+
+/* INTRO */
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro_btn{
+    width: 195px;
+    height: 65px;
+
+    background: #094556;
+    border-radius: 30px;
+
+    font-family: "Schoolbell";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #ffffff;
+    border: none;
+}
+.intro_btn:hover{
+    transition: all 0.2s linear;
+    background: #032e3b;
+}
+.intro_title{
+    width: 537px;
+    height: 240px;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #ffffff;
+}
+.intro_text{
+    width: 511px;
+    height: 58px;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #849499;
+}
+.btn{
+    width: 137px;
+    height: 61px;
+    background: #094556;
+    border-radius: 25px;
+    border: none;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffffff;
+}
+.btn:hover{
+    transition: all 0.2s ease-in-out;
+    background: #ffa63a;
+}
+.intro_btns{
+    margin-top: 50px;
+}

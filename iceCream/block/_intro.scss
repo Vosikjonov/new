@@ -1,0 +1,46 @@
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__textsmall {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.1em;
+      color: #0f0101;
+    }
+    &__title {
+      width: 665px;
+      font-family: "Fredoka One";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 57.33px;
+      line-height: 120.5%;
+      /* or 69px */
+  
+      color: #0f0101;
+  
+      opacity: 0.9;
+    }
+    &__span {
+      color: #d23166;
+    }
+    &__text {
+      /* Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words. */
+  
+      width: 523px;
+      font-family: "Hind Madurai";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      /* or 150% */
+  
+      color: #0f0101;
+  
+      opacity: 0.6;
+      margin-bottom: 50px;
+    }
+  }

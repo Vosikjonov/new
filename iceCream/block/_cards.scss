@@ -1,0 +1,47 @@
+.cards {
+    width: 95%;
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &__card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 250px;
+      height: 200px;
+      background-color: #fdf9f9;
+      text-align: center;
+  
+      /* Rectangle 61 */
+  
+      background: #ffffff;
+      box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+      border-radius: 7px;
+      &:hover {
+        background: #fdfcfc;
+        transition: all 0.3s linear;
+      }
+    }
+    &__title {
+      font-family: "Hind Madurai";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      /* identical to box height */
+  
+      color: #000000;
+    }
+    &__text {
+      font-family: "Hind Madurai";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #000000;
+      opacity: 0.6;
+    }
+  }
